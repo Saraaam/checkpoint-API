@@ -1,0 +1,42 @@
+# Ignore les fichiers de système
+.DS_Store
+Thumbs.db
+
+# Ignore les fichiers générés par l'environnement
+node_modules/
+.env
+*.log
+*.tmp
+
+# Ignore les fichiers de compilations
+*.class
+*.o
+*.so
+*.exe
+dist/
+build/
+
+# Ignore les fichiers de sauvegarde et temporaires
+*.bak
+*.swp
+*.swo
+*.~*
+~$*
+
+# Ignore les fichiers spécifiques au système d'exploitation
+*.~lock.*
+.idea/
+.vscode/
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore les fichiers spécifiques au framework ou langage (par exemple, Python)
+.mypy_cache/
+.Python
+*.sqlite3
+
+# Ignore les fichiers spécifiques à certains gestionnaires de paquets
+package-lock.json
+yarn.lock
+composer.lock
